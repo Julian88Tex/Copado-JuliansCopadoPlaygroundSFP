@@ -4,9 +4,13 @@ public class AccountOperations {
 
         // Add null check for safety
 
-        if(acc != null && acc.NumberOfEmployees != null) {
+        if(acc != null && acc.AnnualRevenue != null) {
 
-            if(acc.NumberOfEmployees < 10) {
+            if(acc.AnnualRevenue > 123456789) {
+
+                acc.Rating = 'Warm';
+
+            } else {
 
                 acc.Rating = 'Cold';
 
