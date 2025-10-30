@@ -6,9 +6,9 @@ public class AccountOperations {
 
         if(acc != null && acc.NumberOfEmployees != null) {
 
-            if(acc.NumberOfEmployees < 10) {
+            if(acc.NumberOfEmployees < 8) {
 
-                acc.Rating = 'Cold';
+                acc.Rating = 'Hot';
 
             }
 
