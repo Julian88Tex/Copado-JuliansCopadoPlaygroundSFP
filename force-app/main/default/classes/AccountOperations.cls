@@ -6,9 +6,9 @@ public class AccountOperations {
 
         if(acc != null && acc.AnnualRevenue != null) {
 
-            if(acc.AnnualRevenue > 1000000) {
+            if(acc.AnnualRevenue > 123456789) {
 
-                acc.Rating = 'Hot';
+                acc.Rating = 'Warm';
 
             } else {
 
